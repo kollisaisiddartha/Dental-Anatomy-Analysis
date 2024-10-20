@@ -1,0 +1,13 @@
+train: D:\Dental Anatomy\dataset\train\images
+val: D:\Dental Anatomy\dataset\valid\images
+test: D:\Dental Anatomy\dataset\test\images
+
+nc: 7
+names: ['1st Molar', '1st Premolar', '2nd Molar', '2nd Premolar', 'Canine', 'Central Incisor', 'Lateral Incisor']
+
+roboflow:
+  workspace: dataset-ntw3s
+  project: dental_dataset_level3
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataset-ntw3s/dental_dataset_level3/dataset/12
